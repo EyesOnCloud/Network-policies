@@ -1,7 +1,7 @@
 apiVersion: networking.k8s.io/v1 
 kind: NetworkPolicy
 metadata:
-  name: deny-all-np
+  name: deny-all-netpol
 spec:
   podSelector:
     matchLabels:
